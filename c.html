@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+<meta charset="UTF-8">
+<title>Football Project</title>
+
+<style>  
+
+body{
+    font-family:Arial; 
+    /* نوع الخط */
+
+    background-image:url("https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=1600");
+    /* خلفية ملعب كورة */
+
+    background-size:cover;
+    /* تغطية الشاشة */
+
+    background-position:center;
+    /* توسيط الخلفية */
+
+    background-repeat:no-repeat;
+    /* منع التكرار */
+
+    background-attachment:fixed;
+    /* تثبيت الخلفية */
+
+    color:rgb(226, 218, 218);
+    /* لون الكلام */
+
+    text-align:center;
+    /* توسيط النص */
+
+    text-shadow:2px 2px 5px black;
+    /* ظل للنص */
+}
+
+/* الصندوق الرئيسي */
+.container{
+    background:rgba(7, 7, 7, 0.6);
+    /* خلفية شفافة */
+
+    margin:20px auto;
+    /* توسيط */
+
+    padding:20px;
+    /* مسافة داخلية */
+
+    width:85%;
+    /* عرض */
+
+    border-radius:10px;
+    /* تدوير الحواف */
+}
+
+/* الصور */
+img{
+    width:250px;
+    /* حجم الصور */
+
+    border-radius:10px;
+    /* تدوير الصور */
+}
+
+/* الفيديو */
+video{
+    width:500px;
+    border-radius:10px;
+}
+
+/* الصوت */
+audio{
+    width:300px;
+}
+
+/* القوائم */
+ul, ol{
+    text-align:left;
+    display:inline-block;
+}
+
+/* الجدول */
+table{
+    margin:auto;
+    border-collapse:collapse;
+    background:rgba(0,0,0,0.4);
+}
+
+/* الروابط */
+a{
+    color:#00ff88;
+}
+
+/* تأثير الصور */
+img:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+</style>
+
+</head>
+
+<body> <!-- بداية محتوى الصفحة اللي المستخدم بيشوفه -->
+
+    <h1>⚽ Football Stars</h1> <!-- العنوان الرئيسي للموقع -->
+    
+    <div class="container"> <!-- صندوق بيجمع كل المحتوى عشان تنسيق أفضل -->
+    
+    <h2>About Player</h2> <!-- عنوان قسم اللاعب -->
+    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Mohamed_salah_2018.jpg">
+    <!-- صورة محمد صلاح -->
+    
+    <h1>Mohamed Salah</h1> <!-- اسم اللاعب -->
+    
+    <h3>
+    <p>
+    This is <b>Mohamed Salah</b> one of the best players in the world ⚽  
+    <!-- تعريف اللاعب مع تكبير اسمه -->
+    
+    He scored <mark>300+ goals</mark> ⚽  
+    <!-- تمييز عدد الأهداف -->
+    
+    Mohamed Salah is an Egyptian professional footballer who plays as a forward for Liverpool in the English Premier League and the Egypt national team. He is known for his incredible speed, dribbling skills, and goal-scoring ability. Salah is considered one of the best players in the world and has won many awards during his career.
+    <!-- فقرة تعريف كاملة عن اللاعب -->
+    </p>
+    </h3>
+    
+    <p>
+    <h2>
+    Visit his
+    <a href="https://en.wikipedia.org/wiki/Mohamed_Salah" target="_blank">
+    profile
+    </a>
+    <!-- رابط يفتح صفحة اللاعب في ويكيبيديا في نافذة جديدة -->
+    </h2>
+    </p>
+    
+    <hr> <!-- خط فاصل بين الأقسام -->
+    
+    <h1>Lionel Messi</h1> <!-- عنوان قسم ميسي -->
+    
+    <h3>
+    <p>
+    <i>Lionel Messi</i> is widely considered one of the greatest football players of all time.  
+    <!-- تعريف ميسي -->
+    
+    He was born in <b>Rosario, Argentina</b>, and showed exceptional talent from a very young age.  
+    <!-- معلومات عن نشأته -->
+    
+    Messi became famous for his <b>amazing dribbling</b>, vision, and goal-scoring ability during his career with  
+    <b>Barcelona</b>, <b>Paris Saint-Germain</b>, and now <b>Inter Miami</b>.  
+    <!-- مسيرته مع الأندية -->
+    
+    He also led Argentina to win the <i>FIFA World Cup 2022</i>, which was the biggest achievement of his career.  
+    <!-- أكبر إنجاز -->
+    
+    Messi is known for his <b>skill</b>, <b>humility</b>, and <i>consistency</i> on the field.
+    <!-- صفاته -->
+    </p>
+    </h3>
+    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Lionel_Messi_20180626.jpg">
+    <!-- صورة ميسي -->
+    
+    <br><br> <!-- مسافة بين العناصر -->
+    
+    <p>
+    <h2>
+    Visit his
+    <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank">
+    profile
+    </a>
+    <!-- رابط صفحة ميسي -->
+    </h2>
+    </p>
+    
+    <hr>
+    
+    <h2>Audio</h2> <!-- قسم الصوت -->
+    
+    <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+    <!-- ملف صوت -->
+    </audio>
+    
+    <h2>Video</h2> <!-- قسم الفيديو -->
+    
+    <video controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+    <!-- ملف فيديو -->
+    </video>
+    
+    <hr>
+    
+    <h2>Top Players</h2> <!-- عنوان القوائم -->
+    
+    <ul>
+    <li>Messi</li>
+    <li>Ronaldo</li>
+    <li>Salah</li>
+    <li>Neymar</li>
+    <li>Suarez</li>
+    </ul>
+    <!-- قائمة غير مرتبة -->
+    
+    <ol>
+    <li>Barcelona</li>
+    <li>Real Madrid</li>
+    <li>Liverpool</li>
+    <li>Al Ahly</li>
+    <li>El Zamalek</li>
+    </ol>
+    <!-- قائمة مرتبة -->
+    
+    <hr>
+    
+    <h2>Players Table</h2> <!-- جدول اللاعبين -->
+    
+    <table border="1" width="600">
+    
+    <tr>
+    <th>Name</th> <!-- اسم اللاعب -->
+    <th>Goals</th> <!-- الأهداف -->
+    <th>Assists</th> <!-- التمريرات -->
+    </tr>
+    
+    <tr>
+    <td>Messi</td>
+    <td>820</td>
+    <td>400</td>
+    </tr>
+    
+    <tr>
+    <td>Ronaldo</td>
+    <td>880</td>
+    <td>261</td>
+    </tr>
+    
+    <tr>
+    <td>Salah</td>
+    <td>300</td>
+    <td>170</td>
+    </tr>
+    
+    <tr>
+    <td>Neymar</td>
+    <td>450</td>
+    <td>300</td>
+    </tr>
+    
+    <tr>
+    <td>Suarez</td>
+    <td>550</td>
+    <td>290</td>
+    </tr>
+    
+    </table>
+    
+    <hr>
+    
+    <h2>Contact Form</h2> <!-- فورم تواصل -->
+    
+    <form>
+    
+    <input type="text" placeholder="Your Name"><br><br>
+    <!-- إدخال الاسم -->
+    
+    <input type="text" placeholder="Your Favorite Team"><br><br>
+    <!-- إدخال الفريق -->
+    
+    <h3>Choose Your Favorite Team</h3>
+    
+    <input type="radio" name="team"> Barcelona
+    <input type="radio" name="team"> Real Madrid
+    <input type="radio" name="team"> Liverpool
+    <input type="radio" name="team"> Al Ahly
+    <input type="radio" name="team"> El Zamalek
+    <!-- اختيار فريق واحد -->
+    
+    <h3>Favorite Players</h3>
+    
+    <input type="checkbox"> Messi
+    <input type="checkbox"> Ronaldo
+    <input type="checkbox"> Salah
+    <input type="checkbox"> Neymar
+    <input type="checkbox"> Suarez
+    <!-- اختيار أكثر من لاعب -->
+    
+    <br><br>
+    
+    <input type="submit" value="Send">
+    <!-- زر الإرسال -->
+    
+    </form>
+    
+    </div> <!-- نهاية الصندوق الرئيسي -->
+    
+    </body> <!-- نهاية محتوى الصفحة -->
+    
+    </html>
